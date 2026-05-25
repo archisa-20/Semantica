@@ -6,9 +6,12 @@ from flask_cors import CORS
 from sentence_transformers import SentenceTransformer
 import numpy as np
 import os
-from backend.data import movies
+from data import movies
 
 app = Flask(__name__)
+@app.route("/")
+def home():
+    return send_from_directory("../frontend", "semantic.html")
 CORS(app)  # required so semantica.html can call this API
 
 # ── Build a rich text representation for each movie ──────────────────
