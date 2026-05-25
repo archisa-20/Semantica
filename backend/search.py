@@ -1,6 +1,6 @@
 from sentence_transformers import SentenceTransformer
 import numpy as np
-from data import movies
+from backend.data import movies
 
 # Load the model (downloads once, ~80MB)
 print("Loading model...")
