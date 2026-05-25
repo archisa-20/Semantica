@@ -4,7 +4,8 @@ A full-stack semantic search engine that retrieves results based on **meaning**,
 
 > Search *"a lonely astronaut drifting in silence"* and find **Interstellar** — even though those words never appear in its description.
 
-![Semantica Preview](https://via.placeholder.com/900x450/0D0221/00FFFF?text=Semantica+Preview)
+<img width="1904" height="874" alt="image" src="https://github.com/user-attachments/assets/b6dfb73a-9cfd-4836-88d7-d5be6f5373a9" />
+
 
 ---
 
